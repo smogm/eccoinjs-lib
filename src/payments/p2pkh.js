@@ -5,7 +5,7 @@ const ecc = require('tiny-secp256k1')
 
 const bcrypto = require('../crypto')
 const bscript = require('../script')
-const BITCOIN_NETWORK = require('../networks').bitcoin
+const BITCOIN_NETWORK = require('../networks').eccoin
 const bs58check = require('bs58check')
 
 // input: {signature} {pubkey}

@@ -9,7 +9,7 @@ module.exports = {
       public: 0x0488b21e,
       private: 0x0488ade4
     },
-    pubKeyHash: 0x33,
+    pubKeyHash: 0x21,
     scriptHash: 0x08,
     wif: 0x80
   },
@@ -20,8 +20,8 @@ module.exports = {
       public: 0x0488b21e,
       private: 0x0488ade4
     },
-    pubKeyHash: 0x51,
-    scriptHash: 0x15,
+    pubKeyHash: 0x33,
+    scriptHash: 0x0f,
     wif: 0x80
   },
   testnet: {
@@ -31,8 +31,8 @@ module.exports = {
       public: 0x0488b21e,
       private: 0x0488ade4
     },
-    pubKeyHash: 0x51,
-    scriptHash: 0x15,
+    pubKeyHash: 0x33,
+    scriptHash: 0x0f,
     wif: 0xef
   }
 }

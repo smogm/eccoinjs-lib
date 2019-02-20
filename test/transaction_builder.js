@@ -101,7 +101,7 @@ describe('TransactionBuilder', function () {
   describe('fromTransaction', function () {
     fixtures.valid.build.forEach(function (f) {
       it('returns TransactionBuilder, with ' + f.description, function () {
-        const network = NETWORKS[f.network || 'bitcoin']
+        const network = NETWORKS[f.network || 'eccoin']
 
         const tx = Transaction.fromHex(f.txHex)
         const txb = TransactionBuilder.fromTransaction(tx, network)
