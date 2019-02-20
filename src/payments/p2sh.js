@@ -4,7 +4,7 @@ const OPS = require('bitcoin-ops')
 
 const bcrypto = require('../crypto')
 const bscript = require('../script')
-const BITCOIN_NETWORK = require('../networks').bitcoin
+const BITCOIN_NETWORK = require('../networks').eccoin
 const bs58check = require('bs58check')
 
 function stacksEqual (a, b) {

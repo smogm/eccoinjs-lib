@@ -6,7 +6,7 @@ const ecc = require('tiny-secp256k1')
 const bcrypto = require('../crypto')
 const bech32 = require('bech32')
 const bscript = require('../script')
-const BITCOIN_NETWORK = require('../networks').bitcoin
+const BITCOIN_NETWORK = require('../networks').eccoin
 
 const EMPTY_BUFFER = Buffer.alloc(0)
 

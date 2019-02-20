@@ -4,7 +4,7 @@ const OPS = require('bitcoin-ops')
 const ecc = require('tiny-secp256k1')
 
 const bscript = require('../script')
-const BITCOIN_NETWORK = require('../networks').bitcoin
+const BITCOIN_NETWORK = require('../networks').eccoin
 
 // input: {signature}
 // output: {pubKey} OP_CHECKSIG
