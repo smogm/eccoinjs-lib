@@ -68,7 +68,6 @@ function toOutputScript (address, network) {
   } catch (e) {}
 
   if (decode) {
-    console.log(decode)
     if (decode.version === network.pubKeyHash) return payments.p2pkh({ hash: decode.hash }).output
     if (decode.version === network.scriptHash) return payments.p2sh({ hash: decode.hash }).output
   } else {
